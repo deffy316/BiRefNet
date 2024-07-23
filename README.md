@@ -1,27 +1,59 @@
-# <p align=center>`Bilateral Reference for High-Resolution Dichotomous Image Segmentation`</p>
+<h1 align="center">Bilateral Reference for High-Resolution Dichotomous Image Segmentation</h1>
+
+<div align='center'>
+    <a href='https://scholar.google.com/citations?user=TZRzWOsAAAAJ' target='_blank'><strong>Peng Zheng</strong></a><sup> 1,4,5,6</sup>,&thinsp;
+    <a href='https://scholar.google.com/citations?user=0uPb8MMAAAAJ' target='_blank'><strong>Dehong Gao</strong></a><sup> 2</sup>,&thinsp;
+    <a href='https://scholar.google.com/citations?user=kakwJ5QAAAAJ' target='_blank'><strong>Deng-Ping Fan</strong></a><sup> 1*</sup>,&thinsp;
+    <a href='https://scholar.google.com/citations?user=9cMQrVsAAAAJ' target='_blank'><strong>Li Liu</strong></a><sup> 3</sup>,&thinsp;
+    <a href='https://scholar.google.com/citations?user=qQP6WXIAAAAJ' target='_blank'><strong>Jorma Laaksonen</strong></a><sup> 4</sup>,&thinsp;
+    <a href='https://scholar.google.com/citations?user=pw_0Z_UAAAAJ' target='_blank'><strong>Wanli Ouyang</strong></a><sup> 5</sup>,&thinsp;
+    <a href='https://scholar.google.com/citations?user=stFCYOAAAAAJ' target='_blank'><strong>Nicu Sebe</strong></a><sup> 6</sup>
+</div>
+
+<div align='center'>
+    <sup>1 </sup>Nankai University&ensp;  <sup>2 </sup>Northwestern Polytechnical University&ensp;  <sup>3 </sup>National University of Defense Technology&ensp; 
+    <br />
+    <sup>4 </sup>Aalto University&ensp;  <sup>5 </sup>Shanghai AI Laboratory&ensp;  <sup>6 </sup>University of Trento&ensp; 
+</div>
+
+<div align="center" style="display: flex; justify-content: center; flex-wrap: wrap;">
+  <a href='https://arxiv.org/pdf/2401.03407'><img src='https://img.shields.io/badge/arXiv-BiRefNet-red'></a>&ensp; 
+  <a href='https://drive.google.com/file/d/1aBnJ_R9lbnC2dm8dqD0-pzP2Cu-U1Xpt/view?usp=drive_link'><img src='https://img.shields.io/badge/中文版-BiRefNet-red'></a>&ensp; 
+  <a href='https://www.birefnet.top'><img src='https://img.shields.io/badge/Page-BiRefNet-red'></a>&ensp; 
+  <a href='https://drive.google.com/drive/folders/1s2Xe0cjq-2ctnJBR24563yMSCOu4CcxM'><img src='https://img.shields.io/badge/Drive-Stuff-green'></a>&ensp; 
+  <a href='LICENSE'><img src='https://img.shields.io/badge/License-MIT-yellow'></a>&ensp; 
+</div>
+
+<div align="center" style="display: flex; justify-content: center; flex-wrap: wrap;">
+  <a href='https://huggingface.co/spaces/ZhengPeng7/BiRefNet_demo'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20HF%20Spaces-BiRefNet-blue'></a>&ensp; 
+  <a href='https://huggingface.co/ZhengPeng7/birefnet'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20HF%20Models-BiRefNet-blue'></a>&ensp; 
+</div>
+
+<div align="center" style="display: flex; justify-content: center; flex-wrap: wrap;">
+  <a href='https://colab.research.google.com/drive/14Dqg7oeBkFEtchaHLNpig2BcdkZEogba?usp=drive_link'><img src='https://img.shields.io/badge/Single_Image_Inference-F9AB00?style=for-the-badge&logo=googlecolab&color=525252'></a>&ensp; 
+  <a href='https://colab.research.google.com/drive/1MaEiBfJ4xIaZZn0DqKrhydHB8X97hNXl#scrollTo=DJ4meUYjia6S'><img src='https://img.shields.io/badge/Inference_&_Evaluation-F9AB00?style=for-the-badge&logo=googlecolab&color=525252'></a>&ensp; 
+</div>
+
 
 |            *DIS-Sample_1*        |             *DIS-Sample_2*        |
 | :------------------------------: | :-------------------------------: |
 | <img src="https://drive.google.com/thumbnail?id=1ItXaA26iYnE8XQ_GgNLy71MOWePoS2-g&sz=w400" /> |  <img src="https://drive.google.com/thumbnail?id=1Z-esCujQF_uEa_YJjkibc3NUrW4aR_d4&sz=w400" /> |
 
-This repo is the official implementation of "[**Bilateral Reference for High-Resolution Dichotomous Image Segmentation**](https://arxiv.org/pdf/2401.03407.pdf)" (___arXiv 2024___).
+This repo is the official implementation of "[**Bilateral Reference for High-Resolution Dichotomous Image Segmentation**](https://arxiv.org/pdf/2401.03407.pdf)" (___CAAI AIR 2024___).
 
-> **Authors:**
-> [Peng Zheng](https://scholar.google.com/citations?user=TZRzWOsAAAAJ),
-> [Dehong Gao](https://scholar.google.com/citations?user=0uPb8MMAAAAJ),
-> [Deng-Ping Fan](https://scholar.google.com/citations?user=kakwJ5QAAAAJ),
-> [Li Liu](https://scholar.google.com/citations?user=9cMQrVsAAAAJ),
-> [Jorma Laaksonen](https://scholar.google.com/citations?user=qQP6WXIAAAAJ),
-> [Wanli Ouyang](https://scholar.google.com/citations?user=pw_0Z_UAAAAJ), &
-> [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ).
 
-[[**arXiv**](https://arxiv.org/abs/2401.03407)] [[**code**](https://github.com/ZhengPeng7/BiRefNet)] [[**stuff**](https://drive.google.com/drive/folders/1s2Xe0cjq-2ctnJBR24563yMSCOu4CcxM)]  [[**中文版**](https://drive.google.com/file/d/14crTiNicD73U965tNb49NxuHpvJxt9P7/view?usp=drive_link)] 
+## :rocket: Load BiRefNet in _ONE LINE_ by HuggingFace, check more -> [![BiRefNet](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue)](https://huggingface.co/ZhengPeng7/birefnet):
+```python
+from transformers import AutoModelForImageSegmentation
+birefnet = AutoModelForImageSegmentation.from_pretrained('zhengpeng7/birefnet', trust_remote_code=True)
+```
+
 
 Our BiRefNet has achieved SOTA on many similar HR tasks:
 
 **DIS**: [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bilateral-reference-for-high-resolution/dichotomous-image-segmentation-on-dis-te1)](https://paperswithcode.com/sota/dichotomous-image-segmentation-on-dis-te1?p=bilateral-reference-for-high-resolution) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bilateral-reference-for-high-resolution/dichotomous-image-segmentation-on-dis-te2)](https://paperswithcode.com/sota/dichotomous-image-segmentation-on-dis-te2?p=bilateral-reference-for-high-resolution) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bilateral-reference-for-high-resolution/dichotomous-image-segmentation-on-dis-te3)](https://paperswithcode.com/sota/dichotomous-image-segmentation-on-dis-te3?p=bilateral-reference-for-high-resolution) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bilateral-reference-for-high-resolution/dichotomous-image-segmentation-on-dis-te4)](https://paperswithcode.com/sota/dichotomous-image-segmentation-on-dis-te4?p=bilateral-reference-for-high-resolution) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bilateral-reference-for-high-resolution/dichotomous-image-segmentation-on-dis-vd)](https://paperswithcode.com/sota/dichotomous-image-segmentation-on-dis-vd?p=bilateral-reference-for-high-resolution)
 
-<details><summary>Figure of Comparison on Papers with Codes (by the time of this work):</summary><p>
+<details><summary>Figure of Comparison on DIS Papers with Codes (by the time of this work):</summary>
 <img src="https://drive.google.com/thumbnail?id=1DLt6CFXdT1QSWDj_6jRkyZINXZ4vmyRp&sz=w1620" />
 <img src="https://drive.google.com/thumbnail?id=1gn5GyKFlJbMIkre1JyEdHDSYcrFmcLD0&sz=w1620" />
 <img src="https://drive.google.com/thumbnail?id=16CVYYOtafEeZhHqv0am2Daku1n_exMP6&sz=w1620" />
@@ -32,7 +64,7 @@ Our BiRefNet has achieved SOTA on many similar HR tasks:
 
 **COD**:[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bilateral-reference-for-high-resolution/camouflaged-object-segmentation-on-cod)](https://paperswithcode.com/sota/camouflaged-object-segmentation-on-cod?p=bilateral-reference-for-high-resolution) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bilateral-reference-for-high-resolution/camouflaged-object-segmentation-on-nc4k)](https://paperswithcode.com/sota/camouflaged-object-segmentation-on-nc4k?p=bilateral-reference-for-high-resolution) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bilateral-reference-for-high-resolution/camouflaged-object-segmentation-on-camo)](https://paperswithcode.com/sota/camouflaged-object-segmentation-on-camo?p=bilateral-reference-for-high-resolution) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bilateral-reference-for-high-resolution/camouflaged-object-segmentation-on-chameleon)](https://paperswithcode.com/sota/camouflaged-object-segmentation-on-chameleon?p=bilateral-reference-for-high-resolution)
 
-<details><summary>Figure of Comparison on Papers with Codes (by the time of this work):</summary><p>
+<details><summary>Figure of Comparison on COD Papers with Codes (by the time of this work):</summary>
 <img src="https://drive.google.com/thumbnail?id=1DLt6CFXdT1QSWDj_6jRkyZINXZ4vmyRp&sz=w1620" />
 <img src="https://drive.google.com/thumbnail?id=1gn5GyKFlJbMIkre1JyEdHDSYcrFmcLD0&sz=w1620" />
 <img src="https://drive.google.com/thumbnail?id=16CVYYOtafEeZhHqv0am2Daku1n_exMP6&sz=w1620" />
@@ -41,7 +73,7 @@ Our BiRefNet has achieved SOTA on many similar HR tasks:
 
 **HRSOD**: [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bilateral-reference-for-high-resolution/rgb-salient-object-detection-on-davis-s)](https://paperswithcode.com/sota/rgb-salient-object-detection-on-davis-s?p=bilateral-reference-for-high-resolution) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bilateral-reference-for-high-resolution/rgb-salient-object-detection-on-hrsod)](https://paperswithcode.com/sota/rgb-salient-object-detection-on-hrsod?p=bilateral-reference-for-high-resolution) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bilateral-reference-for-high-resolution/rgb-salient-object-detection-on-uhrsd)](https://paperswithcode.com/sota/rgb-salient-object-detection-on-uhrsd?p=bilateral-reference-for-high-resolution) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bilateral-reference-for-high-resolution/salient-object-detection-on-duts-te)](https://paperswithcode.com/sota/salient-object-detection-on-duts-te?p=bilateral-reference-for-high-resolution) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bilateral-reference-for-high-resolution/salient-object-detection-on-dut-omron)](https://paperswithcode.com/sota/salient-object-detection-on-dut-omron?p=bilateral-reference-for-high-resolution)
 
-<details><summary>Figure of Comparison on Papers with Codes (by the time of this work):</summary><p>
+<details><summary>Figure of Comparison on HRSOD Papers with Codes (by the time of this work):</summary>
 <img src="https://drive.google.com/thumbnail?id=1hNfQtlTAHT4-AVbk_47852zyRp1NOFLs&sz=w1620" />
 <img src="https://drive.google.com/thumbnail?id=1bcVldUAxYkMI3OMTyaP_jNuOugDfYj-d&sz=w1620" />
 <img src="https://drive.google.com/thumbnail?id=1p1zgyVz27cGEqQMtOKzm_6zoYK3Sw_Zk&sz=w1620" />
@@ -55,6 +87,7 @@ Our BiRefNet has achieved SOTA on many similar HR tasks:
 + **Inference and evaluation** of your given weights: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MaEiBfJ4xIaZZn0DqKrhydHB8X97hNXl#scrollTo=DJ4meUYjia6S)
 + **Online Inference with GUI** with adjustable resolutions: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/ZhengPeng7/BiRefNet_demo)  
 + Online **Single Image Inference** on Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/14Dqg7oeBkFEtchaHLNpig2BcdkZEogba?usp=drive_link)
+
 <img src="https://drive.google.com/thumbnail?id=12XmDhKtO1o2fEvBu4OE4ULVB2BK0ecWi&sz=w1620" />
 
 
@@ -69,7 +102,7 @@ Our BiRefNet has achieved SOTA on many similar HR tasks:
 
 
 
-<details><summary>Models in the original paper, for <b>comparison on benchmarks</b>:</summary><p>
+<details><summary>Models in the original paper, for <b>comparison on benchmarks</b>:</summary>
 
 | Task  |        Training Sets        |   Backbone    |                           Download                           |
 | :---: | :-------------------------: | :-----------: | :----------------------------------------------------------: |
@@ -87,7 +120,7 @@ Our BiRefNet has achieved SOTA on many similar HR tasks:
 
 
 
-<details><summary>Models trained with customed data (massive, portrait), for <b>general use in practical application</b>:</summary>
+<details><summary>Models trained with customed data (general, portrait), for <b>general use in practical application</b>:</summary>
 
 |           Task            |                        Training Sets                         |   Backbone    | Test Set  | Metric (S, wF[, HCE]) |                           Download                           |
 | :-----------------------: | :----------------------------------------------------------: | :-----------: | :-------: | :-------------------: | :----------------------------------------------------------: |
@@ -108,7 +141,7 @@ Our BiRefNet has achieved SOTA on many similar HR tasks:
 
 
 
-<details><summary>Model <b>efficiency</b>:</summary><p>
+<details><summary>Model <b>efficiency</b>:</summary>
 
 > Screenshot from the original paper. All tests are conducted on a single A100 GPU.
 
@@ -156,7 +189,7 @@ Choose the one you like to try with clicks instead of codes:
 
 ```shell
 # PyTorch==2.0.1 is used for faster training with compilation.
-conda create -n dis python=3.9 -y && conda activate dis
+conda create -n birefnet python=3.9 -y && conda activate birefnet
 pip install -r requirements.txt
 ```
 
@@ -168,13 +201,15 @@ Download combined training / test sets I have organized well from: [DIS](https:/
 
 Download backbone weights from [my google-drive folder](https://drive.google.com/drive/folders/1s2Xe0cjq-2ctnJBR24563yMSCOu4CcxM) or their official pages.
 
-#### Run
+## Run
 
 ```shell
 # Train & Test & Evaluation
 ./train_test.sh RUN_NAME GPU_NUMBERS_FOR_TRAINING GPU_NUMBERS_FOR_TEST
+# Example: ./train_test.sh tmp-proj 0,1,2,3,4,5,6,7 0
+
 # See train.sh / test.sh for only training / test-evaluation.
-# After the evluation, run `gen_best_ep.py` to select the best ckpt from a specific metric (you choose it from Sm, wFm, HCE (DIS only)).
+# After the evaluation, run `gen_best_ep.py` to select the best ckpt from a specific metric (you choose it from Sm, wFm, HCE (DIS only)).
 ```
 
 #### Well-trained weights:
@@ -222,7 +257,7 @@ I really hope you enjoy this project and use it in more works to achieve new SOT
 @article{zheng2024birefnet,
   title={Bilateral Reference for High-Resolution Dichotomous Image Segmentation},
   author={Zheng, Peng and Gao, Dehong and Fan, Deng-Ping and Liu, Li and Laaksonen, Jorma and Ouyang, Wanli and Sebe, Nicu},
-  journal={arXiv},
+  journal={CAAI Artificial Intelligence Research},
   year={2024}
 }
 ```
